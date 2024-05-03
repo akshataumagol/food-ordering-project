@@ -1,0 +1,51 @@
+/*body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }*/
+  .reg{
+    background: url("../Assets/hero/d4.jpg") no-repeat center;
+  height: 900px;
+  background-size: cover;
+  padding: 40px 0;
+  
+  }
+  form {
+    /*background: url("../Assets/hero/hero-1.jpg") no-repeat center center;*/
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 80px;
+    margin-top: 100px;
+    margin-left: 450px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .reg form h1{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  h4{
+    text-align: center;
+    width: 40px;
+  }
+  input{
+    width: 250px;
+  }
+  label {
+    display: inline-block; 
+    width: 150px; 
+    margin-left: 20px;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: red;
+  }

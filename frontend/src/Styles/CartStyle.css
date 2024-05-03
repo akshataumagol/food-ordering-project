@@ -1,0 +1,103 @@
+/* CartStyle.css */
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 140px;
+    padding-bottom: 250px;
+    background: url("../Assets/hero/crt.jpg") no-repeat center;
+  height: 900px;
+  background-size: cover;
+  padding: 40px 0;
+    /* Add padding-top to compensate for the content */
+   
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: black;
+    padding: 20px;
+    width: 80%;
+    margin-bottom: 10px;
+    background: white                /* Light gray background color */
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.price-quantity-total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-quantity-total p {
+    margin: 5px 0;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-btn,
+.remove-btn {
+    padding: 5px 10px;
+    background-color:red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    
+}
+
+.quantity-btn:hover,
+.remove-btn:hover {
+    background-color: #333;
+   
+}
+
+/* CartStyle.css */
+
+.checkout-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-top: 1px;
+    
+}
+
+.totals {
+    /* Add padding to totals for better visibility */
+    background: white;/* Light green background color for totals */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    margin-left: 925px;
+}
+
+.total {
+    margin-right: 10px; /* Reduce margin between text and button */
+}
+
+.checkout-btn-container {
+    display: flex; /* Make the button container a flex container */
+    margin-left: 10px; /* Add margin to the left of the button container */
+}
+
+.checkout-btn {
+    background: red ;/* Light green background color for button */
+    color: #000; /* Set button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout-btn:hover {
+    background-color: #ddd; /* Change button background color on hover */
+}

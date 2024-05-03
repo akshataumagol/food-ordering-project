@@ -1,0 +1,45 @@
+.payform {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 70vw;
+  background-color: white
+}
+
+.payform form{
+  margin: 110px;
+  width:700px;
+  background-color: wheat;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+.checkbox-container .button{
+  margin-top: 70px;
+  margin-left: 100px;
+  left: 500px;
+}
+.payment-container {
+  padding:90px 0;
+  min-height: 100vh;
+  min-width: 40vw;
+  display: flex;
+  justify-content: space-between; /* Distribute sections evenly */
+}
+label{
+  margin-top: 70px;
+}
+
+.billing-section,
+.payment-section {
+  flex: 1; /* Each section takes up equal space */
+  padding: 20px;
+}
+
+.billing-section {
+  background-color: white; /* Background color for Billing Address section */
+}
+
+.payment-section {
+  background-color: white; /* Background color for Payment section */
+}
